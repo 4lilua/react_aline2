@@ -1,6 +1,6 @@
 import { Section } from './styles'
-import img1 from "../../assets/image1.png"
-import img2 from "../../assets/image2.png"
+import img1 from "../../assets/cafeteria.png"
+import img2 from "../../assets/cafeteria2.png"
 
 export function Home() {
   return (

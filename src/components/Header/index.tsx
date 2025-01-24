@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom"
 import { SHeader, SNavBar } from "./styles"
-import Logo from "../../assets/logo.png"
+import Logo from "../../assets/cafe.png"
 import { useContext } from "react";
 import { AuthContext } from "../../contexts/authContext";
 import { GrLogout } from "react-icons/gr";
@@ -12,7 +12,7 @@ export function Header() {
   return (
     <SHeader>
       <picture>
-        <img src={Logo} alt="Logo do site" />
+        <img src={Logo} alt="Logo do site"/>
       </picture>
       <SNavBar>
         <input id="menu-toggle" type="checkbox" />

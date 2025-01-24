@@ -4,9 +4,10 @@ import { colors } from "../../styles/GlobalStyle"
 
 export const SHeader = styled.header`
   /* Cabeçalho */
-  border-bottom: 0.4rem solid ${colors.primary};
+  border-bottom: 0.4rem solid ${colors.secondary};
   display: flex;
   height: 6rem;
+  background-color: ${colors.primary};
   picture {
     margin-left: 0.5rem;
     padding: 0.5rem;

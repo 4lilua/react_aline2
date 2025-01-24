@@ -8,8 +8,10 @@ export const Section = styled.section`
 
   margin: 0 auto;
   img {
-    width: 43.25%;
-    justify-content: space-between;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
     padding-left: 5rem;
+    padding-top: 2.5rem;
   }
 `
