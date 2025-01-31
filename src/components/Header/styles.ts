@@ -40,9 +40,13 @@ export const SNavBar = styled.nav`
         text-decoration: none;
         color: ${colors.black};
       }
+      a:hover {
+        color: ${colors.white};
+      }
     }
     li:hover {
       background-color: ${colors.secondary};
+      color: ${colors.white};
     }
   }
   input#menu-toggle {

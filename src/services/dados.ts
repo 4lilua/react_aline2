@@ -1,32 +1,43 @@
 export const dados = [
   {
     id: 1,
-    data: "23/06/2023 07:00:00",
-    assunto: "Aula",
-    comentario: "Componentes"
+    cliente: "Aline",
+    produto: "Café expresso",
+    valor: "R$ 5,00",
+    img: " "
   },
   {
     id: 2,
-    data: "23/06/2023 07:10:00",
-    assunto: "Aula Web",
-    comentario: "Serviços"
+    cliente: "Luana",
+    produto: "Macarron",
+    valor: "R$ 7,00",
+    img: " "
   },
   {
     id: 3,
-    data: "23/06/2023 07:20:00",
-    assunto: "Aula React",
-    comentario: "Rotas"
+    cliente: "Liló",
+    produto: "Bolo de chocolate",
+    valor: "R$ 4,00",
+    img: " "
   },
   {
     id: 4,
-    data: "23/06/2023 07:30:00",
-    assunto: "Aula React Web",
-    comentario: "Estilos"
+    cliente: "Júlia",
+    produto: "Misto quente",
+    valor: "R$ 4,00",
+    img: " "
   },
   {
-    id: 5,
-    data: "23/06/2023 07:30:00",
-    assunto: "Aula React Web",
-    comentario: "Estilos"
+    cliente: "Giovanna",
+    produto: "Biscoitão",
+    valor: "R$ 1,50",
+    img: " "
+  },
+  {
+    id: 6,
+    cliente: "Gabriel",
+    produto: "Pão de queijo",
+    valor: "R$ 3,00",
+    img: " "
   },
 ]

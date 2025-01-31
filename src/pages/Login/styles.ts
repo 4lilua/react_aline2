@@ -43,6 +43,16 @@ export const SSection = styled.section`
         text-decoration: none;
         color: ${colors.black};
         font-weight: bold;
+        padding-right: 0.5rem;
+      }
+      button {
+        text-decoration: none;
+        font-size: 1rem;
+        color: ${colors.white};
+        background-color: ${colors.secondary};
+        font-weight: bold;
+        padding: 0.5rem;
+        border-radius: 0.5rem;
       }
     }
   }

@@ -8,6 +8,7 @@ export const SSection = styled.section`
 
   aside {
     display: flex;
+    align-items: center;
     padding: 0.2rem;
     color: ${colors.white};
     p {

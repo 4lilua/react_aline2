@@ -68,7 +68,7 @@ export function Cadastrar() {
           <input type="password" name="senha" id="senha" placeholder="Senha"
             onChange={(e) => handleChange({ password: e.target.value })}
             value={formData?.password}
-          />^[^[[18~^[^[^[^[^[[19~^[^[^[[20~^[^[^[^[^[
+          />
         </div>
         <p>
           Já possui conta? <Link to="/login">Faça o login</Link>
